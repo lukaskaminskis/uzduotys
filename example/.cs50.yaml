@@ -4,3 +4,8 @@ check50:
       - run: python3 hello.py
         stdout: Hello, world!
         exit: 0
+    test:
+      - run: python3 test.py
+        stdin: ivestis
+        stdout: isvestis
+        exit: 0
