@@ -8,4 +8,6 @@ check50:
       - run: python3 test.py
         stdin: ivestis
         stdout: isvestis
-        exit: 0
+      - run: python3 test.py
+        stdin: betkas
+        stdout: kas
