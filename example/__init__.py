@@ -8,4 +8,4 @@ def exists():
 @check50.check(exists)
 def prints_hello():
     """Checking if program prints "Hello there" """
-    check50.run("python3 hello.py").stdout("[Hh]ello, world!?\n", regex=True).exit(0)
+    check50.run("python3 hello.py").stdout("[Hh]ello there?\n", regex=True).exit(0)
